@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Text Box Example</title>
+  <style>
+    .textbox {
+      width: 300px;
+      height: 40px;
+      padding: 8px;
+      font-size: 16px;
+      border: 2px solid #4CAF50;
+      border-radius: 8px;
+      box-shadow: 2px 2px 5px rgba(0,0,0,0.2);
+    }
+
+    .textbox:focus {
+      border-color: #2196F3;
+      outline: none;
+      box-shadow: 0 0 5px #2196F3;
+    }
+  </style>
+</head>
+<body>
+
+  <h2>Enter Your Name:</h2>
+  <input type="text" class="textbox" placeholder="Type here...">
+
+</body>
+</html>
